@@ -8,7 +8,6 @@
 # .tfvars .terraform & plan files
 *.plan
 *.terraform*
-*.tfvars*
 *.txt*
 
 #ssh key
