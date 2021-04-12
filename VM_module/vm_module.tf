@@ -40,6 +40,7 @@ resource "azurerm_virtual_machine" "vm" {
   vm_size                       = "Standard_B2S"
   delete_os_disk_on_termination = true
   //tags                  = var.tags
+  //  depends_on = [azurerm_network_interface.nic]
 
   storage_os_disk {
     name              = "${var.vm_prefix}OsDisk"
